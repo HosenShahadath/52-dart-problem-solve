@@ -1,5 +1,7 @@
+// problem 2 check Big number even or odd
+
 import 'dart:io';
-// problem 2
+
 void main(){
   String? n = stdin.readLineSync()!;
   String lastDigit = n[n.length - 1];
